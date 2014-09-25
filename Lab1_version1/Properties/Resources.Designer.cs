@@ -63,9 +63,9 @@ namespace Lab1_version1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap faceLeft {
+        internal static System.Drawing.Bitmap FaceLeft1 {
             get {
-                object obj = ResourceManager.GetObject("faceLeft", resourceCulture);
+                object obj = ResourceManager.GetObject("FaceLeft1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +93,9 @@ namespace Lab1_version1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap shootLeft {
+        internal static System.Drawing.Bitmap ShootLeft1 {
             get {
-                object obj = ResourceManager.GetObject("shootLeft", resourceCulture);
+                object obj = ResourceManager.GetObject("ShootLeft1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

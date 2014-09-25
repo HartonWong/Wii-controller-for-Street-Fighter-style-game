@@ -286,7 +286,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.SystemColors.Window;
-            this.pictureBox1.Image = global::Lab1_version1.Properties.Resources.faceLeft;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.InitialImage = null;
             this.pictureBox1.Location = new System.Drawing.Point(556, 298);
             this.pictureBox1.Name = "pictureBox1";
@@ -297,7 +297,7 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(880, 348);
+            this.pictureBox2.Location = new System.Drawing.Point(864, 360);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(104, 62);
             this.pictureBox2.TabIndex = 29;
@@ -306,7 +306,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(957, 59);
+            this.pictureBox3.Location = new System.Drawing.Point(778, 104);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(190, 153);
             this.pictureBox3.TabIndex = 30;
@@ -315,7 +315,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(308, 285);
+            this.pictureBox4.Location = new System.Drawing.Point(308, 349);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(130, 61);
             this.pictureBox4.TabIndex = 31;
