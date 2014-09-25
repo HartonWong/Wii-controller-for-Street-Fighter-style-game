@@ -48,7 +48,7 @@
             this.textBoxOrientation = new System.Windows.Forms.TextBox();
             this.textBoxXAvg = new System.Windows.Forms.TextBox();
             this.textBoxYAvg = new System.Windows.Forms.TextBox();
-            this.textBoxAAvg = new System.Windows.Forms.TextBox();
+            this.textBoxZAvg = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -56,6 +56,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // serialPort1
@@ -214,13 +217,13 @@
             this.textBoxYAvg.Size = new System.Drawing.Size(121, 26);
             this.textBoxYAvg.TabIndex = 16;
             // 
-            // textBoxAAvg
+            // textBoxZAvg
             // 
-            this.textBoxAAvg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.textBoxAAvg.Location = new System.Drawing.Point(392, 73);
-            this.textBoxAAvg.Name = "textBoxAAvg";
-            this.textBoxAAvg.Size = new System.Drawing.Size(121, 26);
-            this.textBoxAAvg.TabIndex = 17;
+            this.textBoxZAvg.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBoxZAvg.Location = new System.Drawing.Point(392, 73);
+            this.textBoxZAvg.Name = "textBoxZAvg";
+            this.textBoxZAvg.Size = new System.Drawing.Size(121, 26);
+            this.textBoxZAvg.TabIndex = 17;
             // 
             // label4
             // 
@@ -292,11 +295,38 @@
             this.label10.TabIndex = 24;
             this.label10.Text = "Signal Wait Time";
             // 
+            // textBox1
+            // 
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBox1.Location = new System.Drawing.Point(13, 196);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(121, 26);
+            this.textBox1.TabIndex = 25;
+            // 
+            // textBox2
+            // 
+            this.textBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBox2.Location = new System.Drawing.Point(177, 196);
+            this.textBox2.Name = "textBox2";
+            this.textBox2.Size = new System.Drawing.Size(121, 26);
+            this.textBox2.TabIndex = 26;
+            // 
+            // textBox3
+            // 
+            this.textBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.textBox3.Location = new System.Drawing.Point(332, 196);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(121, 26);
+            this.textBox3.TabIndex = 27;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(819, 331);
+            this.ClientSize = new System.Drawing.Size(900, 443);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
@@ -304,7 +334,7 @@
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
-            this.Controls.Add(this.textBoxAAvg);
+            this.Controls.Add(this.textBoxZAvg);
             this.Controls.Add(this.textBoxYAvg);
             this.Controls.Add(this.textBoxXAvg);
             this.Controls.Add(this.textBoxOrientation);
@@ -353,7 +383,7 @@
         private System.Windows.Forms.TextBox textBoxOrientation;
         private System.Windows.Forms.TextBox textBoxXAvg;
         private System.Windows.Forms.TextBox textBoxYAvg;
-        private System.Windows.Forms.TextBox textBoxAAvg;
+        private System.Windows.Forms.TextBox textBoxZAvg;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
@@ -361,6 +391,9 @@
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 
