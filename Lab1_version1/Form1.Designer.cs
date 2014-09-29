@@ -57,14 +57,14 @@
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDragon = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxDevil = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDragon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDevil)).BeginInit();
             this.SuspendLayout();
             // 
             // serialPort1
@@ -303,14 +303,14 @@
             this.pictureBox2.TabIndex = 29;
             this.pictureBox2.TabStop = false;
             // 
-            // pictureBox3
+            // pictureBoxDragon
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(778, 104);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(190, 153);
-            this.pictureBox3.TabIndex = 30;
-            this.pictureBox3.TabStop = false;
+            this.pictureBoxDragon.Image = global::Lab1_version1.Properties.Resources.Dragon;
+            this.pictureBoxDragon.Location = new System.Drawing.Point(755, 12);
+            this.pictureBoxDragon.Name = "pictureBoxDragon";
+            this.pictureBoxDragon.Size = new System.Drawing.Size(213, 213);
+            this.pictureBoxDragon.TabIndex = 30;
+            this.pictureBoxDragon.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -321,14 +321,14 @@
             this.pictureBox4.TabIndex = 31;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox5
+            // pictureBoxDevil
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(308, 127);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(130, 152);
-            this.pictureBox5.TabIndex = 32;
-            this.pictureBox5.TabStop = false;
+            this.pictureBoxDevil.Image = global::Lab1_version1.Properties.Resources.devils020;
+            this.pictureBoxDevil.Location = new System.Drawing.Point(308, 100);
+            this.pictureBoxDevil.Name = "pictureBoxDevil";
+            this.pictureBoxDevil.Size = new System.Drawing.Size(157, 149);
+            this.pictureBoxDevil.TabIndex = 32;
+            this.pictureBoxDevil.TabStop = false;
             // 
             // Form1
             // 
@@ -338,9 +338,9 @@
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1255, 487);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.pictureBoxDevil);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
+            this.Controls.Add(this.pictureBoxDragon);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -372,9 +372,9 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDragon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxDevil)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -409,9 +409,9 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBoxDragon;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureBoxDevil;
     }
 }
 

@@ -63,9 +63,29 @@ namespace Lab1_version1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FaceLeft1 {
+        internal static System.Drawing.Bitmap devils020 {
             get {
-                object obj = ResourceManager.GetObject("FaceLeft1", resourceCulture);
+                object obj = ResourceManager.GetObject("devils020", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Dragon {
+            get {
+                object obj = ResourceManager.GetObject("Dragon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap faceLeft {
+            get {
+                object obj = ResourceManager.GetObject("faceLeft", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +113,29 @@ namespace Lab1_version1.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap ShootLeft1 {
+        internal static System.Drawing.Bitmap lieDownShoot {
             get {
-                object obj = ResourceManager.GetObject("ShootLeft1", resourceCulture);
+                object obj = ResourceManager.GetObject("lieDownShoot", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap militarylink {
+            get {
+                object obj = ResourceManager.GetObject("militarylink", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap shootLeft {
+            get {
+                object obj = ResourceManager.GetObject("shootLeft", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

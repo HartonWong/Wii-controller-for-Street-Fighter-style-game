@@ -121,25 +121,37 @@
   <data name="StabResize" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\StabResize.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FaceLeft1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\FaceLeft1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="StabImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\StabImg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ShootLeft1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\ShootLeft1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="shootLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shootLeft2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="militarylink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\militarylink.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="devils020" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\devils020.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="stab" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\stab.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="StabImg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\StabImg.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="lieDownShoot" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\lieDownShoot.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Fly" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Fly.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="shootRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\shootRight2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="faceLeft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\faceLeft2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="faceRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\faceRight1.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="shootRight" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\shootRight2.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Dragon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Dragon.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
